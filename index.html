@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link id="theme-style" rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Oswald:wght@200..700&family=Patrick+Hand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&family=Patrick+Hand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-left">
+        <a href="#home-section" class="logo">Fyeza Islam</a>
+
+        <!-- Theme Toggle -->
+        <label class="theme-toggle">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="toggle-slider">
+
+            <!-- Light Mode -->
+            <span class="toggle-icon sun">
+              <svg viewBox="0 0 24 24" width="14" height="14">
+                <circle cx="12" cy="12" r="5" fill="currentColor" />
+                <g stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="1" x2="12" y2="4" />
+                  <line x1="12" y1="20" x2="12" y2="23" />
+                  <line x1="1" y1="12" x2="4" y2="12" />
+                  <line x1="20" y1="12" x2="23" y2="12" />
+                  <line x1="4.5" y1="4.5" x2="6.5" y2="6.5" />
+                  <line x1="17.5" y1="17.5" x2="19.5" y2="19.5" />
+                  <line x1="17.5" y1="6.5" x2="19.5" y2="4.5" />
+                  <line x1="4.5" y1="19.5" x2="6.5" y2="17.5" />
+                </g>
+              </svg>
+            </span>
+
+            <!-- Dark Mode -->
+            <span class="toggle-icon moon">
+              <svg viewBox="0 0 24 24" width="14" height="14">
+                <path
+                  d="M21 12.79A9 9 0 1 1 11.21 3
+                 7 7 0 0 0 21 12.79z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+          </span>
+        </label>
+      </div>
+
+      <nav>
+        <a href="#home-section" class="active">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#projects-section">Projects</a>
+        <a href="#skills-section">Skills</a>
+        <a href="#contact-section">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home-section">
+      <div class="profile-img">
+        <img src="headshot.jpeg" alt="Image of Fyeza Islam" />
+      </div>
+
+      <div class="home-text">
+        <h2>Hey world, <span class="highlight">Fyeza</span> here!</h2>
+        <p>• Shaping ideas through code •</p>
+      </div>
+    </section>
+
+    <section id="about-section">
+      <h3 class="section-title">About</h3>
+      <p>
+        Hey! I’m Fyeza, a computer science student interested in software
+        development and creating meaningful digital experiences. With experience
+        across projects and team-based work, I enjoy combining clean code with
+        thoughtful design to build applications that are both functional and
+        intuitive.
+        <br />
+        <br />
+        Through internships, research work, and leadership roles, I’ve gained
+        hands-on experience working on real-world problems and collaborating in
+        team environments. From contributing to software projects and research
+        to leading initiatives as the founder and president of a coding club,
+        these experiences have helped shape how I approach problem-solving,
+        communication, and building thoughtful solutions.
+        <br />
+        <br />
+        Outside of coding and academics, I enjoy sketching, graphic design,
+        spending time with family and friends, and exploring creative or
+        tech-related interests.
+      </p>
+    </section>
+
+    <section id="projects-section">
+      <h3 class="section-title">Projects</h3>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>Taskify — Task Manager Web App</h4>
+          <p>
+            A full-stack task management web application that helps users
+            organize, track, and manage daily tasks. Built with a Python Flask
+            backend and a clean, responsive frontend, Taskify focuses on
+            usability, persistence, and simple workflow management.
+          </p>
+          <p class="tech-line">Flask • SQLite • JavaScript</p>
+          <a
+            href="https://github.com/Fyeza-Islam/taskify.git"
+            target="_blank"
+            class="github-btn"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h4>Custom Programming Language</h4>
+          <p>
+            A programming language built from scratch in Java, featuring a
+            lexer, parser, and interpreter. This project explores how source
+            code is tokenized, structured, and executed, providing hands-on
+            experience with language design and compilers.
+          </p>
+          <p class="tech-line">Java • Compilers</p>
+          <a
+            href="https://github.com/Fyeza-Islam/custom-programming-language.git"
+            target="_blank"
+            class="github-btn"
+          >
+            View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h4>Battleship — Console Game</h4>
+          <p>
+            A console-based Battleship game developed in C with turn-based
+            gameplay and structured logic. The project emphasizes memory
+            management, user input handling, and maintaining game state in a
+            low-level programming environment.
+          </p>
+          <p class="tech-line">C • Systems Programming</p>
+          <a
+            href="https://github.com/Fyeza-Islam/battleship-console-game.git"
+            target="_blank"
+            class="github-btn"
+          >
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-section">
+      <h3 class="section-title">Skills</h3>
+
+      <div class="skills-icons">
+        <i class="fab fa-python" title="Python"></i>
+        <i class="fab fa-java" title="Java"></i>
+        <i class="fas fa-c" title="C"></i>
+        <i class="fas fa-database" title="SQL"></i>
+        <i class="fab fa-html5" title="HTML"></i>
+        <i class="fab fa-css3-alt" title="CSS"></i>
+        <i class="fab fa-js" title="JavaScript"></i>
+        <i class="fa-brands fa-git-alt" title="Git"></i>
+        <i class="fab fa-github" title="GitHub"></i>
+        <i class="fab fa-figma" title="Figma"></i>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <h3 class="section-title">Contact</h3>
+
+      <div class="wrapper">
+        <!-- Email -->
+        <a href="mailto:islamfyeza@gmail.com" class="button">
+          <div class="icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <span>Email</span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/fyeza-islam"
+          target="_blank"
+          class="button"
+        >
+          <div class="icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <span>LinkedIn</span>
+        </a>
+
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/fyeza_04"
+          target="_blank"
+          class="button"
+        >
+          <div class="icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <span>Instagram</span>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/Fyeza-Islam" target="_blank" class="button">
+          <div class="icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Fyeza Islam • All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
